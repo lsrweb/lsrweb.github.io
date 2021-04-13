@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>vue-element-admin</title>
+    <link href="/2021/04/13/vue-element-admin/"/>
+    <url>/2021/04/13/vue-element-admin/</url>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h4 id="Vue后台搭建"><a href="#Vue后台搭建" class="headerlink" title="Vue后台搭建"></a>Vue后台搭建</h4><p>1: 登录部分,登录的接口需要返回token,并存储在Vuex 全局store (或者 Cookie中) <br/><br>    而路由权限的判断则需要根据是否获取到token来进行下一步操作,例如动态路由的获取,用户信息的获取<br/></p><p>2: 路由权限,这里的权限路由可以由后台直接返回树状结构供前台使用,使用重点在于在什么地方进行调用.<br/><br>    获取到路由后怎样导入路由到全局并渲染,(src-permission.js) <br /><br>    vue 提供了addRouters() API进行动态路由的添加,但是4.x.x的vue-router舍弃了addRouters() 修改为 addRouter()<br /><br>    获取到路由后则需要导入到组件中进行列表渲染&lt; br/&gt;</p><p>3: …</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>前端</category>
+      
+      <category>Vue</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>vue-element-admin</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>JavaScript轮播图</title>
     <link href="/2021/01/26/%E5%B7%A6%E5%8F%B3%E6%97%A0%E7%BC%9D%E8%BD%AE%E6%92%AD/"/>
     <url>/2021/01/26/%E5%B7%A6%E5%8F%B3%E6%97%A0%E7%BC%9D%E8%BD%AE%E6%92%AD/</url>
